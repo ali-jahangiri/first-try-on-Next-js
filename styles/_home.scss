@@ -1,0 +1,38 @@
+.item {
+    border: 2px solid $primary;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+
+    &__details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: $main;
+            cursor: pointer;
+        }
+    }
+}
+
+.controler {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: linear-gradient(0deg, #b1b1b1, transparent);
+
+    span {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    }
+}

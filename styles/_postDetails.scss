@@ -1,0 +1,39 @@
+.post {
+    width: 90%;
+    margin: 0 auto;
+
+    &__title {
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: $primary;
+        color: $main;
+    }
+
+    &__details {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__comment {
+        &--header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 2px dashed $primary;
+
+            p {
+                font-size: 1.4rem;
+
+                &:last-child {
+                    font-size: .8rem;
+                }
+            }
+        }
+
+        &--container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

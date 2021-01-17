@@ -1,0 +1,14 @@
+@import './variables';
+@import './postDetails';
+@import './home';
+@import './comment';
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    transition: opacity 0.6s;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
